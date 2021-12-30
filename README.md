@@ -1,4 +1,4 @@
-# IDCARD-VERIFYING-SYSTEM
+# IDCARD VERIFYING SYSTEM
 The "IDCARD VERIFYING SYSTEM" uses the Google's latest version of Tesseract OCR[Optical Character Recognition] to recognize and extract meaningful information from an image or a frame image of a webcam while scanning for data-strings present on the image. Once it gets the strings, it searches for specific details by converting it into a list to find EmployeeCode, Name and Designation for the job post and punches them into the "id.db" database file to authenticate the validity of the information that it recently extracted. Once it succeeds in verifies the authentication ladder, it asks to input the user's password, to finalize the verification process.
 
 The main purpose of creating this project is to secure the end user by means of an ID that governs his/her existence over the Grid.
