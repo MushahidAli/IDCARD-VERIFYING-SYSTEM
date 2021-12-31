@@ -29,6 +29,13 @@ except:
   exit()
 
 os.system("cls")
+
+if len(str(text[empval])) == 8:
+  print("Verifying..")
+else:
+  print("Please Try Again!\nImage Was Unclear!")
+  exit()
+
 obj = "\nEmployeeCode : "+text[empval]
 print(obj)
 
